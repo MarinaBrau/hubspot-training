@@ -1,0 +1,520 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following best describes a CRM data migration?",
+    "options": [
+      "The process of moving data from one CRM database to another",
+      "The process of transferring marketing assets to a CRM platform",
+      "The process of removing duplicate records from a CRM database",
+      "The process of moving data from one CMS to another"
+    ],
+    "correct": "The process of moving data from one CRM database to another",
+    "type": "single",
+    "topic": "Data Migration Process",
+    "explanation": "CRM data migration specifically refers to moving data (contacts, companies, deals, activities) from one CRM system to another — not assets, not deduplication, and not CMS content."
+  },
+  {
+    "id": 2,
+    "question": "Which of these statements best describes change management?",
+    "options": [
+      "Change management is the process of adapting to shifting market trends and customer preferences.",
+      "Change management is a systematic approach to achieving business outcomes through the execution of change.",
+      "Change management focuses on maintaining the status quo and avoiding disruptions within an organization.",
+      "Change management is the practice of implementing changes to IT systems while avoiding down time."
+    ],
+    "correct": "Change management is a systematic approach to achieving business outcomes through the execution of change.",
+    "type": "single",
+    "topic": "Change Management",
+    "explanation": "Change management is a disciplined approach to transitioning individuals, teams, and organizations from a current state to a desired future state — focused on achieving business outcomes, not maintaining status quo or just IT changes."
+  },
+  {
+    "id": 3,
+    "question": "Imagine you're leading a data migration for a client. They don't want to experience any downtime in their CRM processes when transitioning from their old system to HubSpot, so they continue to work in the old system while the full migration is being completed. What can you do to make sure that any data that's been added, changed, or deleted in the old system during this time is transferred to HubSpot?",
+    "options": [
+      "Perform user acceptance testing",
+      "Perform a delta migration",
+      "Perform a rollback",
+      "Perform a test migration"
+    ],
+    "correct": "Perform a delta migration",
+    "type": "single",
+    "topic": "Data Migration Process",
+    "explanation": "A delta migration captures only the data that has changed (added, modified, or deleted) since the initial migration. This ensures the client can keep working in the old system while HubSpot catches up with the latest changes."
+  },
+  {
+    "id": 4,
+    "question": "You're leading an interactive training session for a team of sales representatives to show them the value of their data in HubSpot Smart CRM. How can you make sure the training is both relevant and benefit-oriented for them?",
+    "options": [
+      "Focus on ease-of-use, time savings, and leveraging insights to close more deals faster.",
+      "Focus on forecasting revenue and achieving visibility and predictability into their pipeline.",
+      "Focus on data integrity, user permissions, and customization.",
+      "Focus on leveraging automation to drive efficiency across the customer lifecycle."
+    ],
+    "correct": "Focus on ease-of-use, time savings, and leveraging insights to close more deals faster.",
+    "type": "single",
+    "topic": "Training",
+    "explanation": "For sales reps, training should focus on what matters to THEM: ease of use, saving time, and closing deals faster. Technical details (permissions, data integrity) are for admins, not end users."
+  },
+  {
+    "id": 5,
+    "question": "Select all that apply. When designing a process for user acceptance testing, which factors should you consider?",
+    "options": [
+      "Company size",
+      "Number of roles or teams you'll be onboarding",
+      "Learning preferences of users",
+      "The company's culture"
+    ],
+    "correct": ["Company size", "Number of roles or teams you'll be onboarding", "Learning preferences of users", "The company's culture"],
+    "type": "multi",
+    "topic": "Testing",
+    "explanation": "All four factors matter for UAT design: company size affects scope, number of roles determines tester diversity, learning preferences shape test format, and culture influences adoption readiness."
+  },
+  {
+    "id": 6,
+    "question": "Which of the following is NOT a reason to preserve legacy records IDs from the source CRM during a data migration?",
+    "options": [
+      "To verify the accuracy of the imported data",
+      "To conduct post-import data cleanup in HubSpot",
+      "To establish data governance practices in HubSpot",
+      "To perform updates to existing CRM records"
+    ],
+    "correct": "To establish data governance practices in HubSpot",
+    "type": "single",
+    "topic": "Data Migration Process",
+    "explanation": "Legacy record IDs are preserved to verify accuracy, perform cleanup, and update records — but data governance practices are established independently through policies and processes, not through legacy IDs."
+  },
+  {
+    "id": 7,
+    "question": "One principle of adult learning theory is that adults are autonomous and self-directed. As a training facilitator, how can you support this?",
+    "options": [
+      "Provide training in a single format to avoid confusion.",
+      "Allow learners to assume responsibility for their learning.",
+      "Supply learners with answers, so they understand concepts more quickly.",
+      "Make training optional for all learners."
+    ],
+    "correct": "Allow learners to assume responsibility for their learning.",
+    "type": "single",
+    "topic": "Training",
+    "explanation": "Adult learning theory (andragogy) emphasizes that adults are self-directed learners. Supporting this means giving them ownership of their learning process, not spoon-feeding answers or limiting formats."
+  },
+  {
+    "id": 8,
+    "question": "Imagine you're working with a client who is reluctant to make changes to their existing CRM processes when migrating to HubSpot. How would you approach the situation to help them understand the benefits of the change?",
+    "options": [
+      "Allow them to design their own data model for HubSpot.",
+      "Suggest enhancements to their existing processes that align with their business strategy.",
+      "Address their concerns more thoroughly after the data migration is complete.",
+      "Offer additional training to the client's team to help them understand the benefits of your suggestions."
+    ],
+    "correct": "Suggest enhancements to their existing processes that align with their business strategy.",
+    "type": "single",
+    "topic": "Change Management",
+    "explanation": "The best approach with reluctant clients is to meet them where they are — suggest improvements that align with THEIR business strategy, rather than forcing a complete redesign or delaying concerns."
+  },
+  {
+    "id": 9,
+    "question": "Select all that apply. In a data mapping document, what information is typically stored in tables?",
+    "options": [
+      "Object properties and associated field values from the client's source CRM",
+      "Object properties and associated field values from HubSpot Smart CRM",
+      "Workflow actions for data validation in HubSpot",
+      "Field types for all listed properties"
+    ],
+    "correct": ["Object properties and associated field values from the client's source CRM", "Object properties and associated field values from HubSpot Smart CRM", "Field types for all listed properties"],
+    "type": "multi",
+    "topic": "Data Mapping",
+    "explanation": "Data mapping documents contain source CRM properties, destination HubSpot properties, and field types to ensure proper data transformation. Workflow actions are NOT part of data mapping — they're configured separately."
+  },
+  {
+    "id": 10,
+    "question": "Select all that apply. Which of the following factors can impact the estimated timeline for a CRM data migration project?",
+    "options": [
+      "The volume of the data being migrated",
+      "The complexity of the data being migrated",
+      "The invariability of the data being migrated",
+      "The quality of the data being migrated"
+    ],
+    "correct": ["The volume of the data being migrated", "The complexity of the data being migrated", "The quality of the data being migrated"],
+    "type": "multi",
+    "topic": "Planning",
+    "explanation": "Volume, complexity, and quality all directly impact migration timelines. 'Invariability' (unchanging nature) is not a recognized factor — in fact, data variability would be a concern, not invariability."
+  },
+  {
+    "id": 11,
+    "question": "After a data migration, how can team managers act as an extension of your training team?",
+    "options": [
+      "By incorporating CRM usage into their one-on-one meetings with direct reports",
+      "By making all training sessions for their direct reports mandatory",
+      "By offering bonuses or incentives around training completion",
+      "By creating detailed user guides and glossaries for their direct reports"
+    ],
+    "correct": "By incorporating CRM usage into their one-on-one meetings with direct reports",
+    "type": "single",
+    "topic": "Training",
+    "explanation": "Managers reinforce CRM adoption best by making it part of daily management — discussing CRM usage in 1:1s normalizes the tool and keeps adoption top of mind without being heavy-handed."
+  },
+  {
+    "id": 12,
+    "question": "Imagine you're migrating a client's data from an external CRM to an existing HubSpot account. What action can you take to segment (or distinguish between) the new and existing datasets after they're merged?",
+    "options": [
+      "Use a custom property to identify new records from existing records.",
+      "Move the existing HubSpot database to a new HubSpot account.",
+      "Migrate the external data to a HubSpot sandbox account.",
+      "You shouldn't merge an external database with existing data in HubSpot."
+    ],
+    "correct": "Use a custom property to identify new records from existing records.",
+    "type": "single",
+    "topic": "Data Migration Process",
+    "explanation": "When migrating to an existing HubSpot account, use a custom property (e.g., 'data_source' or 'migration_batch') to tag imported records. This lets you distinguish new from existing data without moving databases."
+  },
+  {
+    "id": 13,
+    "question": "Which of the following is NOT a benefit of using the HubSpot API to support a CRM data migration?",
+    "options": [
+      "The API enables programmatic data import.",
+      "The API can handle complex data mappings.",
+      "The API allows for direct integration with HubSpot.",
+      "The API requires limited technical resources."
+    ],
+    "correct": "The API requires limited technical resources.",
+    "type": "single",
+    "topic": "Data Migration Process",
+    "explanation": "The HubSpot API enables programmatic imports, handles complex mappings, and integrates directly — but it requires significant technical expertise (developers, scripting). It is NOT a low-resource option."
+  },
+  {
+    "id": 14,
+    "question": "Select all that apply. Which of the following statements accurately describes the ADKAR model?",
+    "options": [
+      "A framework that focuses on the people-side of change",
+      "A framework that's goal-oriented",
+      "A framework that aims to limit resistance to change",
+      "A framework that's designed for small teams"
+    ],
+    "correct": ["A framework that focuses on the people-side of change", "A framework that's goal-oriented"],
+    "type": "multi",
+    "topic": "Change Management",
+    "explanation": "ADKAR (Awareness, Desire, Knowledge, Ability, Reinforcement) is people-focused and goal-oriented. It doesn't specifically aim to 'limit resistance' (it addresses it naturally) and it's not limited to small teams."
+  },
+  {
+    "id": 15,
+    "question": "What is the purpose of a RACI matrix?",
+    "options": [
+      "To streamline communication and approvals",
+      "To reduce the need for client involvement",
+      "To control the flow of information",
+      "To standardize the structure of the project team"
+    ],
+    "correct": "To streamline communication and approvals",
+    "type": "single",
+    "topic": "Planning",
+    "explanation": "RACI (Responsible, Accountable, Consulted, Informed) clarifies who does what, streamlining communication and approval processes. It doesn't reduce client involvement — it defines it clearly."
+  },
+  {
+    "id": 16,
+    "question": "Which of the following is NOT a reason to conduct a systems audit before a CRM data migration?",
+    "options": [
+      "To assess the client's CRM data quality and integrity",
+      "To suggest ways to integrate the existing CRM and HubSpot Smart CRM",
+      "To understand the current CRM's limitations or inefficiencies",
+      "To evaluate the client's existing CRM customizations and integrations"
+    ],
+    "correct": "To suggest ways to integrate the existing CRM and HubSpot Smart CRM",
+    "type": "single",
+    "topic": "Data Migration Process",
+    "explanation": "A systems audit assesses data quality, identifies limitations, and evaluates customizations. The goal is migration, not integration between the two CRMs — you're replacing the old system, not connecting them."
+  },
+  {
+    "id": 17,
+    "question": "In the data quality command center, which of the following indicates the percentage of records that have a value for a specific property?",
+    "options": [
+      "Fill rate (%)",
+      "Used in",
+      "Update source",
+      "Data syncs"
+    ],
+    "correct": "Fill rate (%)",
+    "type": "single",
+    "topic": "Data Migration Process",
+    "explanation": "Fill rate (%) in the Data Quality Command Center shows what percentage of records have a value for a given property. It helps identify incomplete data that needs attention."
+  },
+  {
+    "id": 18,
+    "question": "In HubSpot, what does the data model overview show?",
+    "options": [
+      "The relationship between objects, properties, and activities",
+      "The import order of objects, properties, and activities",
+      "The relationship between imported and existing CRM records",
+      "The number of duplicate and incomplete CRM records"
+    ],
+    "correct": "The relationship between objects, properties, and activities",
+    "type": "single",
+    "topic": "Data Modeling",
+    "explanation": "The data model overview in HubSpot visualizes how objects (contacts, companies, deals, etc.) relate to each other, their properties, and associated activities — like an Entity Relationship Diagram (ERD)."
+  },
+  {
+    "id": 19,
+    "question": "When testing in a sandbox environment, which of the following is NOT an approach for reducing the impact on the client?",
+    "options": [
+      "Remove the client from the testing process to minimize friction.",
+      "Focus on test cases that cover data integrity, functionality, and integrations.",
+      "Devote resources to thoroughly testing high-risk or complex use cases.",
+      "Leverage automation tools to streamline testing processes."
+    ],
+    "correct": "Remove the client from the testing process to minimize friction.",
+    "type": "single",
+    "topic": "Testing",
+    "explanation": "You should NEVER remove the client from testing. UAT requires real end users to validate the migration. Reducing friction means streamlining their involvement, not eliminating it."
+  },
+  {
+    "id": 20,
+    "question": "One common concern with data migrations is resource availability. How can you alleviate this concern for your client?",
+    "options": [
+      "Advise the client to allocate all of their available resources to the data migration.",
+      "Direct your client to learning resources to help develop their team's data migration skills.",
+      "Position your team as skilled project managers and technical consultants who can manage the entire migration process.",
+      "Encourage the client to delay the migration until additional resources are available."
+    ],
+    "correct": "Position your team as skilled project managers and technical consultants who can manage the entire migration process.",
+    "type": "single",
+    "topic": "Planning",
+    "explanation": "The best way to address resource concerns is to demonstrate that YOUR team has the expertise to manage the migration end-to-end. This is the 'do it for me' approach of implementation services."
+  },
+  {
+    "id": 21,
+    "question": "You recently assigned a new success manager to one of your client accounts. The previous success manager has worked closely with the client for the last two years. This change doesn't require the client to change their behavior, but does prompt an emotional response from them. What type of change would this be classified as?",
+    "options": [
+      "Informational",
+      "Transitional",
+      "Behavioral",
+      "Transformational"
+    ],
+    "correct": "Transitional",
+    "type": "single",
+    "topic": "Change Management",
+    "explanation": "Transitional change = low behavioral change + emotional response. The client doesn't need to change what they do, but they feel the impact of losing a trusted relationship. This fits the transitional quadrant of the change matrix."
+  },
+  {
+    "id": 22,
+    "question": "What are learning objectives?",
+    "options": [
+      "They describe the metrics that will be used to track the success of a learning experience.",
+      "They describe what the learner hopes to gain from the learning experience.",
+      "They describe what participants should know, or be able to do, as a result of a learning experience.",
+      "They describe the potential consequences of a failed learning experience."
+    ],
+    "correct": "They describe what participants should know, or be able to do, as a result of a learning experience.",
+    "type": "single",
+    "topic": "Training",
+    "explanation": "Learning objectives define the expected outcomes — what participants should know or be able to do AFTER the training. They guide curriculum design and success measurement."
+  },
+  {
+    "id": 23,
+    "question": "What is the purpose of a data migration plan?",
+    "options": [
+      "To track errors and feedback during the project",
+      "To set expectations with project stakeholders",
+      "To facilitate clear and effective communication",
+      "All of the above"
+    ],
+    "correct": "All of the above",
+    "type": "single",
+    "topic": "Planning",
+    "explanation": "A data migration plan serves multiple purposes: tracking errors, setting expectations, and facilitating communication. It's the central document that guides the entire migration project."
+  },
+  {
+    "id": 24,
+    "question": "What is the purpose of performing a test data migration before transitioning a client to HubSpot Smart CRM?",
+    "options": [
+      "To address issues with data accuracy, completeness, or consistency",
+      "To save time during the full data migration process",
+      "To test the functionality of HubSpot's native import tool",
+      "To familiarize your team with the migration steps"
+    ],
+    "correct": "To address issues with data accuracy, completeness, or consistency",
+    "type": "single",
+    "topic": "Testing",
+    "explanation": "The primary purpose of a test migration is to catch data quality issues (accuracy, completeness, consistency) BEFORE the full migration. Use ~10% of real records to uncover problems early."
+  },
+  {
+    "id": 25,
+    "question": "In the context of data migration, what is a rollback?",
+    "options": [
+      "When the migration team pauses the migration process to review the data for accuracy and consistency",
+      "When the migration team minimizes disruption to the client's business operations during the migration",
+      "When the migration team reverts the system or database to a previous state due to unforeseen issues",
+      "When the migration team communicates progress and updates to the broader team throughout the migration process"
+    ],
+    "correct": "When the migration team reverts the system or database to a previous state due to unforeseen issues",
+    "type": "single",
+    "topic": "Data Migration Process",
+    "explanation": "A rollback means reverting to a previous state when something goes wrong. Important: HubSpot does NOT have native rollback — so maintaining backups before migration is critical."
+  },
+  {
+    "id": 26,
+    "question": "What is the difference between transitional change and transformational change?",
+    "options": [
+      "Transitional change does not elicit an emotional response, while transformational change does.",
+      "Transitional change requires a behavior shift, while transformational change does not.",
+      "Transitional change does not require a behavior shift, while transformational change does.",
+      "Neither transitional or transformational change elicit an emotional response."
+    ],
+    "correct": "Transitional change does not require a behavior shift, while transformational change does.",
+    "type": "single",
+    "topic": "Change Management",
+    "explanation": "Both transitional and transformational change involve emotional responses. The key difference: transitional = emotional but no behavior change required; transformational = emotional AND significant behavior change required."
+  },
+  {
+    "id": 27,
+    "question": "You are implementing a new automated workflow in your client's HubSpot account to improve their lead routing process. The workflow does not prompt a response from the client or require them to make changes to how they normally operate. What type of change would this be classified as?",
+    "options": [
+      "Informational",
+      "Transitional",
+      "Behavioral",
+      "Transformational"
+    ],
+    "correct": "Informational",
+    "type": "single",
+    "topic": "Change Management",
+    "explanation": "Informational change = no behavioral change + no emotional response. The workflow runs in the background without requiring the client to change anything or feel impacted."
+  },
+  {
+    "id": 28,
+    "question": "In the ADKAR model for change management, what is the difference between 'Knowledge' and 'Ability'?",
+    "options": [
+      "\"Knowledge\" is more concerned with building confidence and competency, and \"Ability\" is focused on providing clients with the information they need to carry out the change.",
+      "\"Knowledge\" can be developed through coaching, collecting feedback, and addressing issues or obstacles proactively, and \"Ability\" can not.",
+      "\"Knowledge\" is focused on providing clients with the information they need to carry out the change, and \"Ability\" is more concerned with building confidence and competency.",
+      "\"Knowledge\" and \"Ability\" are the same things."
+    ],
+    "correct": "\"Knowledge\" is focused on providing clients with the information they need to carry out the change, and \"Ability\" is more concerned with building confidence and competency.",
+    "type": "single",
+    "topic": "Change Management",
+    "explanation": "In ADKAR: Knowledge = understanding HOW to change (information, training). Ability = actually being ABLE to do it (confidence, competency, practice). Knowledge is theoretical; Ability is practical application."
+  },
+  {
+    "id": 29,
+    "question": "What type of resource is used to capture the relationship between elements by using a flowchart-style illustration?",
+    "options": [
+      "A data mapping document",
+      "An entity relationship diagram (ERD)",
+      "A data migration plan",
+      "A RACI matrix"
+    ],
+    "correct": "An entity relationship diagram (ERD)",
+    "type": "single",
+    "topic": "Data Modeling",
+    "explanation": "ERDs (Entity Relationship Diagrams) use flowchart-style illustrations to show how objects/entities relate to each other. Data mapping documents are spreadsheets, not flowcharts."
+  },
+  {
+    "id": 30,
+    "question": "On the migration project team, what role is typically responsible for communicating and coordinating with project stakeholders to make sure tasks and milestones are delivered on time and to completion?",
+    "options": [
+      "The migration architect or strategist",
+      "The developer",
+      "The data migration or implementation specialist",
+      "The project manager"
+    ],
+    "correct": "The project manager",
+    "type": "single",
+    "topic": "Planning",
+    "explanation": "The Project Manager is responsible for communication, coordination, timelines, and milestone tracking. The architect designs solutions, developers handle technical work, and specialists execute the migration."
+  },
+  {
+    "id": 31,
+    "question": "Imagine you're importing new contact and deal records to HubSpot. Several of the deal records have multiple contacts related to a single deal. For example, one contact who's the decision maker and another who's the billing contact. What feature in HubSpot can be used to further specify the contacts' relationship to the deal?",
+    "options": [
+      "A note",
+      "A custom object",
+      "A record tag",
+      "An association label"
+    ],
+    "correct": "An association label",
+    "type": "single",
+    "topic": "Data Modeling",
+    "explanation": "Association labels define the specific nature of a relationship between records (e.g., 'Decision Maker', 'Billing Contact'). HubSpot associations are bidirectional, and labels add context to those relationships."
+  },
+  {
+    "id": 32,
+    "question": "Which of the following is typically included in a CRM data migration?",
+    "options": [
+      "Landing pages and lead generation forms",
+      "Knowledge base articles and ticket properties",
+      "Marketing emails and content pages",
+      "Contact, company, and deal records"
+    ],
+    "correct": "Contact, company, and deal records",
+    "type": "single",
+    "topic": "Data Migration Process",
+    "explanation": "CRM data migration focuses on CRM records: contacts, companies, deals, and activities. Landing pages, forms, emails, and knowledge base articles are ASSETS that need re-creation, not data migration."
+  },
+  {
+    "id": 33,
+    "question": "Which change principle involves identifying the skills, knowledge, and resources required for the change to be successful?",
+    "options": [
+      "Establishing a clear and shared understanding",
+      "Engaging all relevant stakeholders",
+      "Supporting with comprehensive training and enablement",
+      "Monitoring and evaluating progress"
+    ],
+    "correct": "Supporting with comprehensive training and enablement",
+    "type": "single",
+    "topic": "Change Management",
+    "explanation": "Training and enablement is the change principle focused on identifying and providing the skills, knowledge, and resources needed for successful change adoption."
+  },
+  {
+    "id": 34,
+    "question": "Which of the following is NOT an enumeration property in HubSpot?",
+    "options": [
+      "Multi-select",
+      "Radio select",
+      "Number",
+      "Checkbox"
+    ],
+    "correct": "Number",
+    "type": "single",
+    "topic": "Data Modeling",
+    "explanation": "Enumeration properties have predefined options: Multi-select, Radio select, and Checkbox all have selectable values. Number is a free-form numeric field, not an enumeration."
+  },
+  {
+    "id": 35,
+    "question": "Select all that apply. In HubSpot, what is the purpose of the data quality command center?",
+    "options": [
+      "To identify incomplete values for properties",
+      "To identify unused playbooks",
+      "To identify property values that are formatted incorrectly",
+      "To identify duplicate records"
+    ],
+    "correct": ["To identify incomplete values for properties", "To identify property values that are formatted incorrectly", "To identify duplicate records"],
+    "type": "multi",
+    "topic": "Data Migration Process",
+    "explanation": "The Data Quality Command Center (Operations Hub) monitors: property fill rates (incomplete values), formatting issues, and duplicate records. Unused playbooks are NOT part of data quality monitoring."
+  },
+  {
+    "id": 36,
+    "question": "Which of the following is NOT a required property/column header when importing new contact records?",
+    "options": [
+      "First name",
+      "Last name",
+      "Email",
+      "Job title"
+    ],
+    "correct": "Job title",
+    "type": "single",
+    "topic": "Data Migration Process",
+    "explanation": "When importing contacts, Email is the required unique identifier. First name and Last name are standard expected fields. Job title is optional — it's useful but not required for import."
+  },
+  {
+    "id": 37,
+    "question": "Before importing data, which of the following configurations should you consider turning off in HubSpot?",
+    "options": [
+      "Automated contact creation and association with companies",
+      "Automated property filling from the HubSpot Insights database",
+      "Active integrations or data syncs that may impact the migration",
+      "All of these configurations should be turned off"
+    ],
+    "correct": "All of these configurations should be turned off",
+    "type": "single",
+    "topic": "Data Migration Process",
+    "explanation": "Before importing, disable ALL automations: auto-contact creation, Insights auto-fill, and active integrations/syncs. These can create duplicates, overwrite imported data, or trigger unintended actions during migration."
+  }
+]

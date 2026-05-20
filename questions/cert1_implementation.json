@@ -1,0 +1,824 @@
+[
+  {
+    "id": 1,
+    "question": "Kuma's Concoctions sells tinctures and other herbal remedies. They started selling through Instagram and recently launched an online store. They're interested in moving to HubSpot and want to consolidate their email templates and web pages. As you explore their existing assets, you notice that there's some outdated and duplicative content. Based on your knowledge of best practices, what's the next step you should take?",
+    "options": [
+      "Migrate the assets to HubSpot via API.",
+      "Audit the assets to determine what should be recreated in HubSpot.",
+      "Integrate the old email system to HubSpot.",
+      "Recreate all the assets in HubSpot."
+    ],
+    "correct": "B",
+    "type": "single",
+    "topic": "Implementation Process",
+    "explanation": "Before migrating or recreating assets, you should always audit existing content to identify what is outdated, duplicative, or no longer relevant. This ensures only valuable, up-to-date assets are brought into HubSpot, saving time and maintaining content quality."
+  },
+  {
+    "id": 2,
+    "question": "When completing a website migration, which tool helps you generate a picture of how the site pages fit together?",
+    "options": [
+      "Decision tree",
+      "Change management document",
+      "XML site map",
+      "Workflow sketch"
+    ],
+    "correct": "C",
+    "type": "single",
+    "topic": "Content Hub",
+    "explanation": "An XML site map provides a structured overview of all pages on a website and how they relate to each other. During a website migration, it helps you understand the full scope of pages that need to be moved and how the site architecture is organized."
+  },
+  {
+    "id": 3,
+    "question": "True or false? It's best practice to move all of a client's data in one transfer from their old systems into HubSpot.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "B",
+    "type": "true_false",
+    "topic": "Implementation Process",
+    "explanation": "It is NOT best practice to move all data at once. A phased approach with test batches helps identify data quality issues, mapping errors, and formatting problems before committing to a full migration. This reduces risk and ensures data integrity."
+  },
+  {
+    "id": 4,
+    "question": "Fill in the blank: ___ is a connected application that moves data in and out of HubSpot.",
+    "options": [
+      "Migration",
+      "Integration",
+      "Re-creation",
+      "Translation"
+    ],
+    "correct": "B",
+    "type": "single",
+    "topic": "Account Setup",
+    "explanation": "An integration is a connected application that facilitates the movement of data between HubSpot and external systems. Unlike a one-time migration, integrations maintain an ongoing connection for continuous data flow."
+  },
+  {
+    "id": 5,
+    "question": "Fill in the blank: _____ allows Content Hub users to create sections of content in HubSpot and add them to a third-party website.",
+    "options": [
+      "Content remix",
+      "Content staging",
+      "Content agent",
+      "Content embed"
+    ],
+    "correct": "D",
+    "type": "single",
+    "topic": "Content Hub",
+    "explanation": "Content embed allows users to create content sections within HubSpot and embed them on external, non-HubSpot websites. This is useful for clients who host their website elsewhere but want to leverage HubSpot's content creation tools."
+  },
+  {
+    "id": 6,
+    "question": "Select all that apply. In which areas of Marketing Hub can the Persona property be used?",
+    "options": [
+      "Lists",
+      "Reports",
+      "Forms",
+      "Ads"
+    ],
+    "correct": ["A", "B", "C", "D"],
+    "type": "multi",
+    "topic": "Marketing Hub",
+    "explanation": "The Persona property in HubSpot is versatile and can be used across Lists (for segmentation), Reports (for persona-based analytics), Forms (to collect persona data), and Ads (to target specific personas). This cross-functional capability supports persona-driven marketing strategies."
+  },
+  {
+    "id": 7,
+    "question": "Select all that apply. To use Service Hub, which of the following do you need to assign before you set up the tools?",
+    "options": [
+      "Seats",
+      "Permissions",
+      "Users",
+      "Jobs"
+    ],
+    "correct": ["A", "B", "C"],
+    "type": "multi",
+    "topic": "Service Hub",
+    "explanation": "Before setting up Service Hub tools, you need to create Users, assign them appropriate Seats (which determine tool access), and configure Permissions (which control what they can do). 'Jobs' is not a HubSpot configuration requirement."
+  },
+  {
+    "id": 8,
+    "question": "True or false? It's possible to move a website's pages to HubSpot via API.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "B",
+    "type": "true_false",
+    "topic": "Content Hub",
+    "explanation": "Website pages cannot be migrated to HubSpot via API. Pages are designed assets that need to be re-created in HubSpot using its page builder and templates. Only certain data types (contacts, companies, deals, etc.) can be migrated via API."
+  },
+  {
+    "id": 9,
+    "question": "Which HubSpot reporting feature allows users to automatically send updates to individuals or groups on a regular cadence?",
+    "options": [
+      "Activity logging",
+      "Quick filtering",
+      "Dashboard cloning",
+      "Email scheduling"
+    ],
+    "correct": "D",
+    "type": "single",
+    "topic": "Reporting",
+    "explanation": "Email scheduling in HubSpot reporting allows users to set up recurring emails that automatically send dashboard or report updates to specified individuals or groups. This keeps stakeholders informed without manual effort."
+  },
+  {
+    "id": 10,
+    "question": "Fill in the blank: The type of survey that measures a customer's likelihood to refer the business is called a(n) ___.",
+    "options": [
+      "Embedded survey",
+      "Nudge survey",
+      "NPS survey",
+      "CES survey"
+    ],
+    "correct": "C",
+    "type": "single",
+    "topic": "Service Hub",
+    "explanation": "NPS (Net Promoter Score) surveys measure customer loyalty by asking how likely they are to recommend the business to others, typically on a scale of 0-10. Respondents are classified as Promoters (9-10), Passives (7-8), or Detractors (0-6)."
+  },
+  {
+    "id": 11,
+    "question": "Back to the Fuchsia is a local landscaping company that recently purchased Service Hub. Previously, they used multiple tools layered on top of an enterprise resource planning system. They're looking to create a single, clear view of the customer to ensure consistent communication. Based on this information, which Service Hub tool addresses this use case?",
+    "options": [
+      "Service dashboards",
+      "Content helper",
+      "Conversations inbox",
+      "Feedback surveys"
+    ],
+    "correct": "C",
+    "type": "single",
+    "topic": "Service Hub",
+    "explanation": "The Conversations inbox centralizes all customer communications (email, chat, forms, etc.) into a single unified view. This helps teams maintain consistent communication by seeing the full history of customer interactions in one place, replacing the need for multiple disconnected tools."
+  },
+  {
+    "id": 12,
+    "question": "True or false? It's possible to report on data created and stored outside of the HubSpot Smart CRM.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "A",
+    "type": "true_false",
+    "topic": "Reporting",
+    "explanation": "HubSpot can report on external data through integrations and custom objects. By connecting external data sources, users can create reports that combine HubSpot native data with data from other systems, providing a more complete picture of business performance."
+  },
+  {
+    "id": 13,
+    "question": "Which HubSpot tool allows users to upload and host content assets like product brochures, case studies, whitepapers, images, and ebooks?",
+    "options": [
+      "The files tool",
+      "The import wizard",
+      "The content editor",
+      "The blog tool"
+    ],
+    "correct": "A",
+    "type": "single",
+    "topic": "Content Hub",
+    "explanation": "The files tool in HubSpot serves as a file management system where users can upload, organize, and host various content assets including images, PDFs, documents, and other media files. These files can then be used across HubSpot pages, emails, and other content."
+  },
+  {
+    "id": 14,
+    "question": "Rue's Cruises runs luxury yacht trips for customers. They want to be able to collect information from past guests and use those findings to personalize follow up. Based on this information, which Service Hub tool will best collect this data?",
+    "options": [
+      "Feedback surveys",
+      "Tickets",
+      "Chatbots",
+      "Customer success workspace"
+    ],
+    "correct": "A",
+    "type": "single",
+    "topic": "Service Hub",
+    "explanation": "Feedback surveys are the best tool for collecting structured information from past customers. The data gathered can be used to personalize future communications and improve the customer experience. HubSpot offers NPS, CSAT, and CES survey types for different feedback purposes."
+  },
+  {
+    "id": 15,
+    "question": "Which of the following is NOT a benefit of the content staging tool in Content Hub?",
+    "options": [
+      "It allows users to run tests to see which variation of a website or landing page performs better.",
+      "It allows multiple team members to review, make changes, and provide feedback on content.",
+      "It allows users to easily make and schedule updates to their existing content.",
+      "It allows users to create and test their content in a controlled environment."
+    ],
+    "correct": "A",
+    "type": "single",
+    "topic": "Content Hub",
+    "explanation": "Running A/B or variation tests is a function of HubSpot's A/B testing or adaptive testing tools, not the content staging tool. Content staging is designed for previewing, collaborating on, and scheduling content changes in a safe environment before publishing."
+  },
+  {
+    "id": 16,
+    "question": "Your client wants to compare marketing performance and metrics across multiple campaigns in HubSpot. What reporting view would you recommend they use?",
+    "options": [
+      "The Campaign Analytics page",
+      "The Campaign Performance page",
+      "The Campaign Attribution page",
+      "The Campaign Activity page"
+    ],
+    "correct": "A",
+    "type": "single",
+    "topic": "Reporting",
+    "explanation": "The Campaign Analytics page provides a comparative view of marketing performance metrics across multiple campaigns. It allows users to analyze and benchmark campaigns side by side, making it ideal for evaluating which campaigns are driving the best results."
+  },
+  {
+    "id": 17,
+    "question": "Which of the following is NOT a way that Content Hub supports content marketing teams?",
+    "options": [
+      "It helps them manage their content production across multiple channels.",
+      "It helps them create highly personalized and engaging content experiences for each stage of the customer journey.",
+      "It helps them monetize their content to drive more revenue.",
+      "It helps them make more informed, data-backed decisions."
+    ],
+    "correct": "C",
+    "type": "single",
+    "topic": "Content Hub",
+    "explanation": "Content Hub is designed to help teams create, manage, and analyze content, but it is not a content monetization platform. Its core capabilities focus on content creation, personalization, multi-channel management, and analytics-driven decision making."
+  },
+  {
+    "id": 18,
+    "question": "Select all that apply. During an implementation project, your role as the implementation consultant is to do what?",
+    "options": [
+      "Get the client excited about what's possible with HubSpot.",
+      "Work with the client to decide what deliverables are the highest priority.",
+      "Set realistic expectations with the client.",
+      "Help the client understand the risks or tradeoffs of changing the project scope."
+    ],
+    "correct": ["A", "B", "C", "D"],
+    "type": "multi",
+    "topic": "Implementation Process",
+    "explanation": "An implementation consultant's role encompasses all of these responsibilities: inspiring the client about HubSpot's potential, collaborating on prioritization, managing expectations, and advising on scope changes. This ensures a successful, well-managed implementation."
+  },
+  {
+    "id": 19,
+    "question": "Fill in the blank: The Sales Hub tool that helps reps get up to speed with recent engagements and activity summaries is called ___.",
+    "options": [
+      "Deal management",
+      "Deal inspection",
+      "Deal intelligence",
+      "Deal details"
+    ],
+    "correct": "C",
+    "type": "single",
+    "topic": "Sales Hub",
+    "explanation": "Deal intelligence provides sales reps with AI-powered summaries of recent engagements and activities on a deal. This helps reps quickly understand the current status and context of their deals without having to manually review all interactions."
+  },
+  {
+    "id": 20,
+    "question": "True or false? A client can create multiple pipelines in Service Hub.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "A",
+    "type": "true_false",
+    "topic": "Service Hub",
+    "explanation": "Service Hub supports multiple ticket pipelines, allowing organizations to set up different workflows for different types of service requests (e.g., technical support, billing inquiries, feature requests). Each pipeline can have its own stages and automation."
+  },
+  {
+    "id": 21,
+    "question": "True or false? Quote templates can be migrated to HubSpot.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "B",
+    "type": "true_false",
+    "topic": "Sales Hub",
+    "explanation": "Quote templates are designed assets that cannot be migrated from another system to HubSpot. They need to be re-created using HubSpot's native quote template builder, as each platform has its own template structure and capabilities."
+  },
+  {
+    "id": 22,
+    "question": "Select all that apply. Your client wants to run marketing campaigns targeting their prospects in North America, Europe, and Asia. What types of data should they have in HubSpot to support these campaigns?",
+    "options": [
+      "Prospects' language preferences",
+      "Prospects' geographic location",
+      "Prospects' financial information",
+      "Prospects' consent or opt-in history"
+    ],
+    "correct": ["A", "B", "D"],
+    "type": "multi",
+    "topic": "Marketing Hub",
+    "explanation": "For international campaigns, you need geographic location (for regional targeting), language preferences (for localized content), and consent/opt-in history (for compliance with regulations like GDPR and CAN-SPAM). Financial information is not necessary for running marketing campaigns and raises privacy concerns."
+  },
+  {
+    "id": 23,
+    "question": "Your client wants to run multichannel marketing campaigns to increase their audience engagement, but they have limited resources and headcount. What Content Hub tool would you recommend to support their needs?",
+    "options": [
+      "Content embed",
+      "Smart content",
+      "Content remix",
+      "AI translations"
+    ],
+    "correct": "C",
+    "type": "single",
+    "topic": "Content Hub",
+    "explanation": "Content Remix allows users to repurpose a single piece of content into multiple formats for different channels (blog posts, social media posts, emails, etc.) with minimal effort. This is ideal for resource-constrained teams that need to maintain a multichannel presence."
+  },
+  {
+    "id": 24,
+    "question": "Which of the following is NOT considered a standard account setup task in HubSpot?",
+    "options": [
+      "Setting up shared channels and SLAs for Inboxes and Help Desk",
+      "Creating users and teams and assigning seats and permissions",
+      "Setting up email and web domains",
+      "Connecting external tools via public or private applications"
+    ],
+    "correct": "A",
+    "type": "single",
+    "topic": "Account Setup",
+    "explanation": "Setting up shared channels and SLAs for Inboxes and Help Desk is a Service Hub-specific configuration task, not a standard account setup task. Standard account setup includes creating users/teams, assigning seats/permissions, configuring domains, and connecting integrations."
+  },
+  {
+    "id": 25,
+    "question": "Fill in the blank: The type of survey that measures a customer's satisfaction with a specific purchase or feature is called a(n) ___.",
+    "options": [
+      "CSAT survey",
+      "Open-ended survey",
+      "CES survey",
+      "NPS survey"
+    ],
+    "correct": "A",
+    "type": "single",
+    "topic": "Service Hub",
+    "explanation": "CSAT (Customer Satisfaction) surveys measure satisfaction with a specific interaction, purchase, or feature. They typically ask customers to rate their satisfaction on a scale, making them ideal for gathering targeted feedback about particular experiences."
+  },
+  {
+    "id": 26,
+    "question": "True or false? You can move a website's pages to HubSpot via API.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "B",
+    "type": "true_false",
+    "topic": "Content Hub",
+    "explanation": "Website pages cannot be moved to HubSpot via API. Pages are designed assets with unique layouts, styles, and structures that must be re-created using HubSpot's page builder. This is a commonly tested concept: data can be migrated via API, but designed assets must be re-created."
+  },
+  {
+    "id": 27,
+    "question": "Taking your client's experience level and their willingness to adopt change into account when designing your implementation plan, is an example of what change management best practice?",
+    "options": [
+      "Using a phased or pilot approach to minimize disruptions or downtime",
+      "Making continuous improvements and supporting evolving needs",
+      "Ensuring the scope and impact of the change are realistic",
+      "Positioning the change as an opportunity to optimize their operations"
+    ],
+    "correct": "C",
+    "type": "single",
+    "topic": "Change Management",
+    "explanation": "Considering the client's experience level and change readiness when designing an implementation plan ensures the scope and impact of the change are realistic. This prevents overwhelming the client and increases the likelihood of successful adoption."
+  },
+  {
+    "id": 28,
+    "question": "True or false? You can include videos in HubSpot calls-to-action (CTAs).",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "A",
+    "type": "true_false",
+    "topic": "Marketing Hub",
+    "explanation": "HubSpot CTAs support video content, allowing marketers to create more engaging and interactive calls-to-action. Video CTAs can be more compelling than static text or image-based CTAs, potentially increasing conversion rates."
+  },
+  {
+    "id": 29,
+    "question": "Your client wants to use HubSpot to organize and track tasks related to their content marketing processes, like publishing new blog posts, creating new longform content assets, and conducting SEO audits. What HubSpot tool would you recommend?",
+    "options": [
+      "The adaptive testing tool",
+      "The projects tool",
+      "The content staging tool",
+      "The files tool"
+    ],
+    "correct": "B",
+    "type": "single",
+    "topic": "Content Hub",
+    "explanation": "The projects tool in HubSpot is designed for organizing, tracking, and managing tasks and workflows related to content marketing processes. It provides task management capabilities that help teams coordinate content production activities."
+  },
+  {
+    "id": 30,
+    "question": "You have a client that's struggling to understand how their content marketing efforts are influencing their customer journey. They want to be able to measure which content assets are generating the most new contacts. What HubSpot report would you recommend to address their needs?",
+    "options": [
+      "An SEO report",
+      "A web traffic analytics report",
+      "A contact attribution report",
+      "A landing page analysis report"
+    ],
+    "correct": "C",
+    "type": "single",
+    "topic": "Reporting",
+    "explanation": "A contact attribution report shows which marketing assets and interactions contributed to generating new contacts. It traces the customer journey and assigns credit to the content pieces that influenced conversion, directly answering which assets drive the most new contacts."
+  },
+  {
+    "id": 31,
+    "question": "True or false? Content Hub users can create gated content experiences by restricting access to HubSpot websites, landing pages, and blog content.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "A",
+    "type": "true_false",
+    "topic": "Content Hub",
+    "explanation": "Content Hub supports gated content through membership features that allow users to restrict access to specific pages, blogs, and landing pages. This is useful for premium content, customer-only resources, or lead generation strategies requiring form submissions."
+  },
+  {
+    "id": 32,
+    "question": "Fill in the blank: ___ describes any data or assets that can be accessed and moved from an external system to HubSpot.",
+    "options": [
+      "Re-creation",
+      "Integration",
+      "Migration",
+      "Data transfer"
+    ],
+    "correct": "C",
+    "type": "single",
+    "topic": "Implementation Process",
+    "explanation": "Migration refers to the process of accessing and moving data or assets from an external system to HubSpot. This includes transferring contacts, companies, deals, and other data objects. It differs from integration (ongoing connection) and re-creation (rebuilding designed assets)."
+  },
+  {
+    "id": 33,
+    "question": "Which step of the HubSpot implementation process involves leading in-depth stakeholder interviews to understand their unique requirements and challenges, and creating a tailored plan for integrating HubSpot into their business?",
+    "options": [
+      "Platform configuration",
+      "Data and asset migration",
+      "End user training",
+      "Discovery and solutions design"
+    ],
+    "correct": "D",
+    "type": "single",
+    "topic": "Implementation Process",
+    "explanation": "Discovery and solutions design is the phase where implementation consultants conduct stakeholder interviews, understand business requirements, identify challenges, and create a customized implementation plan. This foundational step ensures the implementation aligns with the client's specific needs."
+  },
+  {
+    "id": 34,
+    "question": "True or false? Your HubSpot implementation strategy should be driven by your client's goals, data, and processes rather than the tools and features of the platform.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "A",
+    "type": "true_false",
+    "topic": "Implementation Process",
+    "explanation": "A successful implementation is always goal-driven, not tool-driven. Starting with the client's business objectives, existing data, and processes ensures the platform is configured to solve real business problems rather than simply activating features that may not be relevant."
+  },
+  {
+    "id": 35,
+    "question": "Your client wants to manage and track their marketing efforts across multiple channels in a centralized interface. What Marketing Hub tool would you recommend?",
+    "options": [
+      "Campaigns",
+      "Dashboards",
+      "Lists",
+      "Business units"
+    ],
+    "correct": "A",
+    "type": "single",
+    "topic": "Marketing Hub",
+    "explanation": "The Campaigns tool in Marketing Hub provides a centralized interface for managing and tracking marketing efforts across multiple channels (email, social, ads, landing pages, etc.). It allows marketers to associate related assets and measure the overall impact of coordinated campaigns."
+  },
+  {
+    "id": 36,
+    "question": "True or false? During an implementation, the client is responsible and accountable for most of the deliverables, while the partner provides support to reach project milestones and get tasks delivered on time and to completion.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "B",
+    "type": "true_false",
+    "topic": "RACI",
+    "explanation": "This is false. In HubSpot implementations, the partner (implementation consultant) is typically Responsible and Accountable for most deliverables, while the client provides support, information, and feedback. The RACI matrix clarifies that the partner drives execution while the client contributes expertise about their business."
+  },
+  {
+    "id": 37,
+    "question": "How can you collect feedback from your client to understand the effectiveness of the solutions you implement?",
+    "options": [
+      "Conduct a reverse demo call.",
+      "Lead end user training.",
+      "Set up a dedicated feedback channel, like a form or messaging system.",
+      "All of the above"
+    ],
+    "correct": "D",
+    "type": "single",
+    "topic": "Implementation Process",
+    "explanation": "All three methods are valid ways to collect client feedback: reverse demo calls let clients demonstrate their understanding, end user training sessions reveal pain points and confusion, and dedicated feedback channels provide ongoing input. Using multiple methods ensures comprehensive feedback."
+  },
+  {
+    "id": 38,
+    "question": "Fill in the blank: The type of survey that measures a customer's satisfaction with a support interaction is called a(n) ___.",
+    "options": [
+      "NPS survey",
+      "CES survey",
+      "CSAT survey",
+      "SMS survey"
+    ],
+    "correct": "B",
+    "type": "single",
+    "topic": "Service Hub",
+    "explanation": "CES (Customer Effort Score) surveys measure how easy it was for a customer to get their issue resolved during a support interaction. They typically ask customers to rate the effort required, helping identify friction points in the support process."
+  },
+  {
+    "id": 39,
+    "question": "Your client needs help creating posts for LinkedIn and Facebook that align with the interests and behaviors of their audience. Which Marketing Hub tool would you recommend?",
+    "options": [
+      "Contact scoring",
+      "Breeze social agent",
+      "Buyer personas",
+      "Smart content"
+    ],
+    "correct": "B",
+    "type": "single",
+    "topic": "Marketing Hub",
+    "explanation": "Breeze social agent is HubSpot's AI-powered tool that helps create social media posts tailored to specific platforms like LinkedIn and Facebook. It can generate content that aligns with audience interests and behaviors, making social media management more efficient."
+  },
+  {
+    "id": 40,
+    "question": "True or false? HubSpot workflows cannot be used to send notifications or create tasks in Salesforce.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "B",
+    "type": "true_false",
+    "topic": "Account Setup",
+    "explanation": "HubSpot workflows CAN send notifications and create tasks in Salesforce through the HubSpot-Salesforce integration. This cross-platform automation capability allows teams to maintain synchronized processes across both systems."
+  },
+  {
+    "id": 41,
+    "question": "True or false? You can only build a website in Content Hub if you have developers in-house.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "B",
+    "type": "true_false",
+    "topic": "Content Hub",
+    "explanation": "Content Hub provides drag-and-drop page builders, pre-built templates, and themes that allow non-technical users to build and manage websites without developer resources. While developers can create custom solutions, they are not required for basic website creation."
+  },
+  {
+    "id": 42,
+    "question": "True or false? The ability to send SMS text via HubSpot is a standard feature included in all HubSpot subscriptions.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "B",
+    "type": "true_false",
+    "topic": "Marketing Hub",
+    "explanation": "SMS capabilities in HubSpot are not included in all subscription tiers. SMS is an add-on or premium feature available at certain subscription levels, requiring additional setup and compliance configurations for different regions."
+  },
+  {
+    "id": 43,
+    "question": "True or false? It's possible to include a calculated property on a record and in reports.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "A",
+    "type": "true_false",
+    "topic": "Reporting",
+    "explanation": "HubSpot supports calculated properties that perform mathematical operations on property values (sum, average, min, max, etc.). These calculated properties can be displayed on records and used in reports, enabling derived metrics without manual data entry."
+  },
+  {
+    "id": 44,
+    "question": "Select all that apply. Which of the following asset types need to be re-created in HubSpot?",
+    "options": [
+      "Landing pages",
+      "Forms",
+      "Images",
+      "Associations"
+    ],
+    "correct": ["A", "B"],
+    "type": "multi",
+    "topic": "Implementation Process",
+    "explanation": "Landing pages and forms are designed assets with unique layouts and logic that must be re-created in HubSpot using its native builders. Images can be uploaded via the files tool (migrated, not re-created), and associations are data relationships configured during data migration, not designed assets."
+  },
+  {
+    "id": 45,
+    "question": "True or false? It's possible for clients to include video in their knowledge base articles.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "A",
+    "type": "true_false",
+    "topic": "Service Hub",
+    "explanation": "HubSpot knowledge base articles support embedded video content. This allows support teams to create richer, more helpful self-service resources that combine text explanations with visual demonstrations, improving customer experience and reducing ticket volume."
+  },
+  {
+    "id": 46,
+    "question": "Select all that apply. Your client wants to integrate their WordPress website with HubSpot. What would the HubSpot WordPress plugin allow them to do?",
+    "options": [
+      "Create and embed HubSpot forms, pop up forms, and live chats on their WordPress pages.",
+      "Track the behavior of users on their website.",
+      "Use content staging to see how changes to their website pages look before they go live.",
+      "Give them insight into what content is resonating with their audience."
+    ],
+    "correct": ["A", "B", "D"],
+    "type": "multi",
+    "topic": "Account Setup",
+    "explanation": "The HubSpot WordPress plugin enables embedding HubSpot forms/popups/live chat, tracking visitor behavior via the HubSpot tracking code, and providing content analytics. However, content staging is a HubSpot Content Hub feature for HubSpot-hosted pages, not available through the WordPress plugin."
+  },
+  {
+    "id": 47,
+    "question": "Fill in the blank: ___ is a designed asset in the old system that needs to be rebuilt in the new system.",
+    "options": [
+      "Migration",
+      "Re-creation",
+      "Data transfer",
+      "Integration"
+    ],
+    "correct": "B",
+    "type": "single",
+    "topic": "Implementation Process",
+    "explanation": "Re-creation refers to designed assets (like landing pages, forms, email templates, quote templates) that cannot be directly migrated and must be rebuilt in HubSpot using its native tools. This is distinct from migration (moving data) and integration (connecting systems)."
+  },
+  {
+    "id": 48,
+    "question": "Which of the following is NOT an example of an engagement?",
+    "options": [
+      "Emails",
+      "Meetings",
+      "Calls",
+      "Associations"
+    ],
+    "correct": "D",
+    "type": "single",
+    "topic": "Account Setup",
+    "explanation": "In HubSpot, engagements are activities that represent interactions with contacts, such as emails, meetings, calls, notes, and tasks. Associations are relationships between records (e.g., contact-to-company, deal-to-contact) and are not interactions or activities."
+  },
+  {
+    "id": 49,
+    "question": "Fill in the blank: The _____ is a strategic guide designed to establish clear expectations and measurable objectives. It's used as a tactical tool to track and control the course of the project.",
+    "options": [
+      "Implementation plan",
+      "Project timeline",
+      "Integration roadmap",
+      "Onboarding checklist"
+    ],
+    "correct": "A",
+    "type": "single",
+    "topic": "Implementation Process",
+    "explanation": "The implementation plan is the strategic document that establishes expectations, defines measurable objectives, and serves as the tactical guide for tracking project progress. It encompasses timelines, milestones, deliverables, and responsibilities for the entire implementation."
+  },
+  {
+    "id": 50,
+    "question": "Which of the following actions does form automation support?",
+    "options": [
+      "Create new contacts",
+      "Assign marketing statuses",
+      "Trigger workflows",
+      "All of the above"
+    ],
+    "correct": "D",
+    "type": "single",
+    "topic": "Marketing Hub",
+    "explanation": "HubSpot form automation supports all three actions: automatically creating new contact records from submissions, assigning marketing statuses (like marketing contact status), and triggering workflows based on form submissions. This automation streamlines lead capture and follow-up processes."
+  },
+  {
+    "id": 51,
+    "question": "What challenges do modern content marketers face?",
+    "options": [
+      "They have to keep their resources and headcount lean.",
+      "They have to keep their content up-to-date.",
+      "They have to break through the noise of a crowded digital marketplace.",
+      "All of the above"
+    ],
+    "correct": "D",
+    "type": "single",
+    "topic": "Content Hub",
+    "explanation": "Modern content marketers face all of these challenges simultaneously: limited resources, the need to maintain fresh content, and the difficulty of standing out in an increasingly crowded digital landscape. Content Hub is designed to address these challenges through efficiency tools and AI assistance."
+  },
+  {
+    "id": 52,
+    "question": "True or false? It's best practice to move a test batch of data before you migrate all of it.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "A",
+    "type": "true_false",
+    "topic": "Implementation Process",
+    "explanation": "Moving a test batch first is a critical best practice in data migration. It allows you to verify that data mappings are correct, formatting is preserved, and no errors occur before committing to a full migration. This minimizes risk and catches issues early."
+  },
+  {
+    "id": 53,
+    "question": "Select all that apply. Integrating HubSpot with Google Search Console will allow a user to monitor the performance of:",
+    "options": [
+      "Average position",
+      "Top search queries",
+      "Website traffic",
+      "Average click through rate"
+    ],
+    "correct": ["A", "B", "C", "D"],
+    "type": "multi",
+    "topic": "Marketing Hub",
+    "explanation": "The HubSpot-Google Search Console integration provides access to all key search performance metrics: average position in search results, top search queries driving traffic, website traffic data, and average click-through rates. This data helps inform SEO and content strategies."
+  },
+  {
+    "id": 54,
+    "question": "Select all that apply. Where can you find visualizations and reporting in Sales Hub?",
+    "options": [
+      "Insights",
+      "Sales Content Analytics",
+      "Dashboards",
+      "Sales Workspace"
+    ],
+    "correct": ["A", "B", "C", "D"],
+    "type": "multi",
+    "topic": "Sales Hub",
+    "explanation": "Sales Hub provides reporting and visualizations across multiple surfaces: Insights (deal and pipeline analytics), Sales Content Analytics (tracking document and content engagement), Dashboards (customizable report collections), and Sales Workspace (personalized rep views with embedded metrics)."
+  },
+  {
+    "id": 55,
+    "question": "Fill in the blank: The Sales Hub tool that projects future sales based on closed-won deals is called ___.",
+    "options": [
+      "Future cast",
+      "Predictive pricing",
+      "Deal management",
+      "Forecast intelligence"
+    ],
+    "correct": "D",
+    "type": "single",
+    "topic": "Sales Hub",
+    "explanation": "Forecast intelligence uses AI to project future sales revenue based on historical closed-won deal data and current pipeline activity. It helps sales leaders make data-driven predictions about future performance and identify potential gaps in hitting targets."
+  },
+  {
+    "id": 56,
+    "question": "Fill in the blank: _____ are the primary goals, problems, or ideas that your customers are interested in. They're used to guide content creation and SEO efforts.",
+    "options": [
+      "Topics",
+      "Subtopics",
+      "Pillar pages",
+      "Long-tail keywords"
+    ],
+    "correct": "A",
+    "type": "single",
+    "topic": "Content Hub",
+    "explanation": "Topics represent the primary themes, goals, or problems that customers care about. In HubSpot's content strategy framework, topics serve as the foundation for organizing content clusters and guiding SEO efforts, with subtopics and pillar pages built around these core themes."
+  },
+  {
+    "id": 57,
+    "question": "Select all that apply. Which data source(s) need to be integrated with HubSpot?",
+    "options": [
+      "Objects",
+      "Social media accounts",
+      "Ads accounts",
+      "Knowledge bases"
+    ],
+    "correct": ["B", "C"],
+    "type": "multi",
+    "topic": "Account Setup",
+    "explanation": "Social media accounts and ads accounts are external platforms that need to be integrated (connected) with HubSpot to sync data. Objects are native to HubSpot's CRM and don't require integration, and knowledge bases are built directly within HubSpot's Service Hub."
+  },
+  {
+    "id": 58,
+    "question": "Fill in the blanks: Marco is helping a client set up their Sales Hub tools. Before completing work in HubSpot, he meets with the client's sales reps to learn about their needs. Once setup begins, he notifies their sales leaders that reps can start working in HubSpot by the end of the month. According to the RACI matrix, the client's sales reps would be ____ and sales leaders would be ____.",
+    "options": [
+      "Consulted, Informed",
+      "Responsible, Informed",
+      "Consulted, Accountable",
+      "Responsible, Accountable"
+    ],
+    "correct": "A",
+    "type": "single",
+    "topic": "RACI",
+    "explanation": "In the RACI matrix, the sales reps are Consulted because Marco gathers their input and requirements before building. The sales leaders are Informed because they receive updates about progress and timelines. Marco (the consultant) is the one Responsible and Accountable for the actual implementation work."
+  },
+  {
+    "id": 59,
+    "question": "Select all that apply. Which functions in Sales Hub are enhanced with AI capabilities?",
+    "options": [
+      "Outreach personalization",
+      "Deal prioritization",
+      "Pipeline creation",
+      "Company record enrichment"
+    ],
+    "correct": ["A", "B", "D"],
+    "type": "multi",
+    "topic": "Sales Hub",
+    "explanation": "AI enhances several Sales Hub functions: outreach personalization (AI-generated email suggestions), deal prioritization (AI-scored deals based on likelihood to close), and company record enrichment (AI-powered data population from external sources). Pipeline creation is a manual configuration task, not an AI-enhanced function."
+  },
+  {
+    "id": 60,
+    "question": "Which of the following can be customized with user permissions in HubSpot?",
+    "options": [
+      "User access to property settings",
+      "User access to the workflows tool",
+      "User access to bulk actions",
+      "All of the above"
+    ],
+    "correct": "D",
+    "type": "single",
+    "topic": "Account Setup",
+    "explanation": "HubSpot's granular permission system allows admins to control access to property settings, the workflows tool, bulk actions, and many other features. This ensures team members only have access to the tools and capabilities relevant to their role."
+  },
+  {
+    "id": 61,
+    "question": "You're designing a post-migration training program for your client that focuses on the intrinsic features, tools, and capabilities that drive CRM adoption, while highlighting the power of their data in HubSpot. Which of the following features should you focus on?",
+    "options": [
+      "Sales intelligence features, like prospect identification and automatic contact enrichment",
+      "Sales acceleration tools, like sending and tracking emails, documents, and playbooks",
+      "Mobile app capabilities, like outbound dialing, scanning business cards, and logging activities",
+      "All of the above"
+    ],
+    "correct": "D",
+    "type": "single",
+    "topic": "Training",
+    "explanation": "A comprehensive post-migration training program should cover all three areas: sales intelligence features (showing the value of enriched data), sales acceleration tools (demonstrating daily productivity gains), and mobile app capabilities (enabling on-the-go CRM usage). Together, these drive adoption by showing users the tangible benefits of the new system."
+  }
+]
