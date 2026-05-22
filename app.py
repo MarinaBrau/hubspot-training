@@ -139,12 +139,10 @@ def slide_change_mgmt():
     st.markdown("## 1.1 Change Management")
     st.markdown("---")
 
-    st.markdown('<div class="concept-card">', unsafe_allow_html=True)
-    st.markdown("""
-    **Definição:** Change management é uma abordagem sistemática para alcançar resultados de negócio
+    st.markdown("""<div class="concept-card">
+    <strong>Definição:</strong> Change management é uma abordagem sistemática para alcançar resultados de negócio
     através da execução de mudança. Estado atual → Transição → Estado desejado.
-    """)
-    st.markdown('</div>', unsafe_allow_html=True)
+    </div>""", unsafe_allow_html=True)
 
     st.markdown("### Os 4 Tipos de Mudança")
     col1, col2 = st.columns(2)
@@ -183,12 +181,10 @@ def slide_migration_process():
     st.markdown("## 1.2 Processo de Migração")
     st.markdown("---")
 
-    st.markdown('<div class="concept-card">', unsafe_allow_html=True)
-    st.markdown("""
-    **CRM Data Migration** = processo de mover dados de um CRM para outro (NÃO assets, NÃO CMS).
-    É uma oportunidade de **OTIMIZAR**, não replicar processos ruins.
-    """)
-    st.markdown('</div>', unsafe_allow_html=True)
+    st.markdown("""<div class="concept-card">
+    <strong>CRM Data Migration</strong> = processo de mover dados de um CRM para outro (NÃO assets, NÃO CMS).
+    É uma oportunidade de <strong>OTIMIZAR</strong>, não replicar processos ruins.
+    </div>""", unsafe_allow_html=True)
 
     st.markdown("""
     ### Processo Completo (10 passos)
@@ -407,12 +403,10 @@ def slide_impl_framework():
     st.markdown("## 2.1 Framework de Implementação")
     st.markdown("---")
 
-    st.markdown('<div class="concept-card">', unsafe_allow_html=True)
-    st.markdown("""
-    **Regra de ouro:** Goals → Data → Processes → Tools (SEMPRE nessa ordem!)
+    st.markdown("""<div class="concept-card">
+    <strong>Regra de ouro:</strong> Goals → Data → Processes → Tools (SEMPRE nessa ordem!)
     A estratégia é guiada pelos objetivos do cliente, não pelas features do HubSpot.
-    """)
-    st.markdown('</div>', unsafe_allow_html=True)
+    </div>""", unsafe_allow_html=True)
 
     col1, col2 = st.columns(2)
     with col1:
