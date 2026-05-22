@@ -7,7 +7,7 @@ st.set_page_config(
     page_title="HubSpot Certification Training — Métricas Boss",
     page_icon="🎓",
     layout="wide",
-    initial_sidebar_state="collapsed",
+    initial_sidebar_state="expanded",
 )
 
 st.markdown("""
@@ -72,7 +72,7 @@ def slide_cover():
         - Discussão em grupo + explicações detalhadas
         """)
         st.markdown("---")
-        st.markdown("*Pressione* **Próximo** *na barra lateral para começar*")
+        st.markdown("*Pressione* **Próximo →** *acima para começar*")
 
 
 def slide_agenda():
