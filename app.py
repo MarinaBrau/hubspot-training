@@ -800,30 +800,28 @@ def main():
                 st.session_state.slide_idx = i
                 st.rerun()
 
-    # Top navigation bar
     idx = st.session_state.slide_idx
     total_slides = len(SLIDES)
 
-    col1, col2, col3, col4 = st.columns([1, 1, 4, 1])
-    with col1:
-        if idx > 0:
-            if st.button("← Anterior"):
-                st.session_state.slide_idx = idx - 1
-                st.rerun()
-    with col2:
-        if idx < total_slides - 1:
-            if st.button("Próximo →", type="primary"):
-                st.session_state.slide_idx = idx + 1
-                st.rerun()
-    with col3:
-        st.caption(f"Slide {idx + 1}/{total_slides} — {SLIDES[idx]['section']}")
-    with col4:
-        st.progress((idx + 1) / total_slides)
-
-    st.markdown("---")
+    st.progress((idx + 1) / total_slides)
+    st.caption(f"Slide {idx + 1}/{total_slides} — {SLIDES[idx]['section']}")
 
     # Render current slide
     SLIDES[idx]["fn"]()
+
+    # Bottom navigation
+    st.markdown("---")
+    col1, col2, col3 = st.columns([1, 2, 1])
+    with col1:
+        if idx > 0:
+            if st.button("← Anterior", use_container_width=True):
+                st.session_state.slide_idx = idx - 1
+                st.rerun()
+    with col3:
+        if idx < total_slides - 1:
+            if st.button("Próximo →", type="primary", use_container_width=True):
+                st.session_state.slide_idx = idx + 1
+                st.rerun()
 
 
 if __name__ == "__main__":
